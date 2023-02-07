@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.9916a97b.css",
-    "main.js": "/static/js/main.60b56339.js",
-    "static/js/787.2746eaee.chunk.js": "/static/js/787.2746eaee.chunk.js",
-    "index.html": "/index.html",
-    "main.9916a97b.css.map": "/static/css/main.9916a97b.css.map",
-    "main.60b56339.js.map": "/static/js/main.60b56339.js.map",
-    "787.2746eaee.chunk.js.map": "/static/js/787.2746eaee.chunk.js.map"
+    "main.css": "/formulacalcapp/static/css/main.9916a97b.css",
+    "main.js": "/formulacalcapp/static/js/main.f2b25aa7.js",
+    "static/js/787.2746eaee.chunk.js": "/formulacalcapp/static/js/787.2746eaee.chunk.js",
+    "index.html": "/formulacalcapp/index.html",
+    "main.9916a97b.css.map": "/formulacalcapp/static/css/main.9916a97b.css.map",
+    "main.f2b25aa7.js.map": "/formulacalcapp/static/js/main.f2b25aa7.js.map",
+    "787.2746eaee.chunk.js.map": "/formulacalcapp/static/js/787.2746eaee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9916a97b.css",
-    "static/js/main.60b56339.js"
+    "static/js/main.f2b25aa7.js"
   ]
 }
