@@ -38,7 +38,7 @@ const App = () => {
         </select>
       </div>
       <div>
-        <label>Weight of tin: </label>
+        <label>Net weight of tin: </label>
         <input
           type="number"
           value={tinWeight}
@@ -56,7 +56,7 @@ const App = () => {
         {unitSystem === 'metric' ? ' grams' : ' oz'}
       </div>
       <div>
-        <label>Volume of single serve: </label>
+        <label>Volume of single prepared serve: </label>
         <input
           type="number"
           value={singleServeVolume}
@@ -76,7 +76,7 @@ const App = () => {
       <button onClick={calculateResult}>Calculate</button>
       <div>
         <label>One tin will prepare: </label>
-        <span>{unitSystem === 'metric' ? result.toFixed(0) : result * 29.5735} {unitSystem === 'metric' ? ' mls' : ' fl oz'}</span>
+        <span>{unitSystem === 'metric' ? result.toFixed(0) / 1000 : result * 29.5735} {unitSystem === 'metric' ? ' liters' : ' fl oz'}</span>
       </div>
       <div>
         <label>Days one tin will last: </label>
